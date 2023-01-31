@@ -4,15 +4,34 @@
   box-sizing: border-box;
 }
 
+/* common */
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: red;
+  background-color: #f6f8f9;
 }
 
+.btn{
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  font-size: 0.6rem;
+  color: white;
+}
+
+.check{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  text-align:center;
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+/* header */
 .header{
   background-color: white;
   padding: 10px 15px;
-  border-bottom: 5px solid black;
 }
 
 .titolo{
@@ -23,28 +42,26 @@ body{
 #logo{
   vertical-align: middle;
 }
+/* /header */
 
-/* .background{
-  background-color: red;
-} */
+/* main */
+.contenitore-bottoni{
+  background-color: white;
+  width: 80%;
+  padding: 10px 0 5px 50px;
+  margin: 40px auto 0 auto;
+}
 
-.contenitore, .contenitore-bottoni{
+.contenitore{
   background-color: white;
   height: 100%;
-  width: 60%;
+  width: 80%;
   padding: 10px 0 50px 50px;
+  margin: 0 auto;
 }
 
 .contenitore{
   margin-top: 3px;
-}
-
-.btn{
-  border-radius: 5px;
-  padding: 5px 10px 5px 10px;
-  border: none;
-  font-size: 0.6rem;
-  color: white;
 }
 
 .btn-add-task{
@@ -63,14 +80,8 @@ ul{
   list-style-type: none;
 }
 
-.check{
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 10px;
-  vertical-align: middle;
+li{
+  padding: 10px;
 }
 
 .check-verde{
@@ -85,11 +96,13 @@ ul{
 
 h3{
   display: inline-block;
+  padding-left: 11px;
 }
 
 .freccia{
   display: inline-block;
   vertical-align: middle;
+  font-size: 12px;
 }
 
 .bottone-azzurro{
@@ -121,3 +134,4 @@ h3{
   background-color: #b0c926;
   border-radius: 8px;
 }
+/* /main */
