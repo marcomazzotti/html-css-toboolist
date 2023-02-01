@@ -12,19 +12,22 @@ body{
 
 .btn{
   border-radius: 5px;
-  padding: 5px 10px 5px 10px;
+  padding: 0.3rem 0.7rem;
   border: none;
   font-size: 0.6rem;
   color: white;
+  cursor: pointer;
+  /* per far vedere la mano quando ci passi sopra */
 }
 
 .check{
   display: inline-block;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  text-align:center;
-  font-size: 10px;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 0.6rem;
   vertical-align: middle;
 }
 
@@ -48,26 +51,25 @@ body{
 .contenitore-bottoni{
   background-color: white;
   width: 80%;
-  padding: 10px 0 5px 50px;
+  padding: 0.8rem 3rem;
   margin: 40px auto 0 auto;
+  border-bottom: 3px solid #f6f8f9;
+  border-radius: 5px;
 }
 
 .contenitore{
   background-color: white;
-  height: 100%;
   width: 80%;
-  padding: 10px 0 50px 50px;
+  padding: 0.8rem 1.7rem;
   margin: 0 auto;
-}
-
-.contenitore{
-  margin-top: 3px;
+  border-radius: 0 0 5px 5px;
 }
 
 .btn-add-task{
   color: white;
   background-color: #47adf1;
   border: none;
+  border: 1px solid #47adf1;
 }
 
 .btn-add-section{
@@ -82,6 +84,7 @@ ul{
 
 li{
   padding: 10px;
+  /* lista > li per prendere i figli diretti di lista */
 }
 
 .check-verde{
